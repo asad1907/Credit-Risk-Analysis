@@ -39,7 +39,7 @@ Loan_Status - the final decision made on the loan provision to the applicant, se
 <br>
 <br>
 <h2>Requirements</h2>
-``` python
+```python
 import numpy as np
 import pandas as pd
 import seaborn as sns
