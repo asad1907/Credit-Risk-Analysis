@@ -39,3 +39,22 @@ Loan_Status - the final decision made on the loan provision to the applicant, se
 <br>
 <br>
 <h2>Requirements</h2>
+``` python
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import scale, StandardScaler, MinMaxScaler
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
+from sklearn.metrics import confusion_matrix, accuracy_score, mean_squared_error, confusion_matrix, classification_report
+from sklearn.metrics import roc_auc_score, roc_curve
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn import tree
+from sklearn.neural_network import MLPClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from lightgbm import LGBMClassifier
+```
